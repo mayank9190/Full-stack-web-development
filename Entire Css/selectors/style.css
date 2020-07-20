@@ -1,0 +1,19 @@
+div{
+    color: blue;
+}
+p{
+    color: red;
+}
+*{
+    font-style: italic;
+}
+.big{
+    font-size: 25pt;
+}
+#one{
+    background-color: orange;
+}
+input[disabled]{
+   
+    height=100px;
+}

@@ -1,0 +1,14 @@
+#id1{
+    font-size: 30px;
+}
+#id2{
+font-family: monospace  ;
+}
+#id3{
+font-style: italic;
+font-weight: bold;
+}
+#id4{
+word-spacing: 2px;
+letter-spacing: 1px;
+}

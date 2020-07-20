@@ -1,0 +1,49 @@
+.game{
+    margin: 50px;
+    height: 500px;
+    width: 500px;
+    background-color: azure;
+    border: dotted black 2px;
+}
+.box{
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    border: solid black 1px;
+}
+.player{
+   
+    transform: translateY(225px);
+    background-color: dodgerblue ;
+    animation: move 3s infinite;
+    animation-play-state: paused;
+   
+}
+.enemy{
+    margin-left: 100px;
+    background-color: orangered ;
+    animation-name: bounce;
+    animation-iteration-count: infinite;
+}
+
+.enemy.one{
+animation-duration: 3s;
+}
+.enemy.two{
+    animation-duration: 5s;
+}
+
+
+@keyframes bounce{
+    50%{
+        transform: translateY(450px);
+    }
+}
+@keyframes move{
+  50%{
+      transform: translateY(225px) translateX(450px);
+  }
+}
+.game:active .player{
+    animation-play-state: running;
+}

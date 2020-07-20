@@ -1,0 +1,20 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: indigo;
+    margin: 20px;
+    padding: 20px;
+}
+.one{
+transform: scale(2,2);
+transform: scaleX(2); in a particular disrection
+}
+.two{
+    transform: rotate: 180deg;
+}
+.three{
+    transform: translate(200px,20px);
+}
+.four{
+    transform: skew(40deg);
+}

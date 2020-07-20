@@ -1,0 +1,17 @@
+h2+p {
+/* adjacent sibling combinator */
+
+    font-weight: bold;
+}
+h2 ~ p{
+/* general sibling combinatpor */
+
+
+    color: red;
+}
+section > p{
+background-color: aqua;
+}
+section p{
+font-family: monospace;
+}
